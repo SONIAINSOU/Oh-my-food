@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+
+*{
+    box-sizing: border-box;
+}   
+
+header {
+    font-family: "Shrikhand", cursive;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0px 2px 2px 1px rgba(128, 128, 128, 0.267);
+    position: relative;
+    height: 5rem;
+    padding: 0.5rem;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    margin: 0px;
+    
+}
+
+main .city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    background-color: rgb(232, 232, 232);
+    box-shadow: 0px 1px 1px 1px rgb(225, 224, 224);
+}
+
+i{
+    margin-top: 20px;
+}
+
+.city i {
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.city h2 {
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+main {
+    background-color: #f2f2f2;
+}
+
+
+.explorer {
+    text-align: center;
+}
+
+.explorer h2 {
+    font-size: 2rem;
+}
+
+.explorer p {
+    padding: 3%;
+    font-size: 20px;
+}
+
+.explorer button {
+    background-color: #FF79DA;
+    border-radius: 50px;
+    margin-bottom: 10%;
+    height: 3rem;
+    width: 50%;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+.choix h2 {
+    background-color: #ffffff69;
+    padding: 1rem;
+}
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+@media (max-width: 768px) {
+   .choix ol {
+       flex-direction: column;
+   }
+    
+}
+
+li {
+    box-shadow: 0px 0.5px 0px 0.5px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 50px;
+    margin-left: 45px;
+    width: 260px;
+    height: 55px;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-left: 15px
+}
+
+.choix {
+    background-color: #ffffff69;;
+    padding: 0rem;
+}
+
+
+li i {
+    margin: 10px;
+}
+
+.menus {
+    background-color: #f2f2f2;
+}
+
+.menus-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.new {
+    position: relative;
+   
+}
+
+.new::before {
+    content: "Nouveau";
+    position: absolute;
+    height: 30px;
+    width: 5rem;
+    background-color: #99E2D0;
+    text-align: center;
+    right: 14px;
+    bottom: 16rem;
+    
+
+}
+
+.menus h2 {
+    padding: 1rem;
+}
+
+
+.resto-card{
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 1rem;
+}
+
+
+.resto-card1,.resto-card2,.resto-card3,.resto-card4 {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.description-card {
+    height:  4rem;
+    margin: 1rem;
+}
+
+.resto-card i {
+    margin-left: 20rem;
+    font-size: 30px;
+    bottom: 80px;
+    position: relative;
+}
+ 
+ h3 {
+    height: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+footer, h2 i p {
+    color: white;
+    padding: 15px;
+    margin-top: 2rem;
+    background-color: black;
+}
+
+footer h2{
+    padding-left: 1rem;
+    font-family: "Shrikhand", sans-serif;
+}
+
+footer p i {
+    margin: 5px;
+}
+    
+
