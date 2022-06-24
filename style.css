@@ -204,4 +204,134 @@ footer p i {
     margin: 5px;
 }
     
+/* LA PALETTE DU GOÛT */
 
+.titre {
+    font-family: "Shrikhand", cursive;
+    margin: 2%;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.coeur {
+    margin-left: 355px;
+    position: relative;
+    bottom: 50px;
+    font-size: 30px;
+}
+
+.carte {
+    background-color: #f2f2f2;
+    border-radius: 41px;
+    position: relative;
+    bottom: 50px;
+}
+
+
+/* ENTREES */
+
+.entree {
+    margin: 2%;
+}
+
+.entree1, .entree2, .entree3, .entree4 {
+    margin: 2%;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-bottom: -40px;
+}
+
+.prix {
+    position: relative;
+    bottom: -5px;
+    padding-left: 330px;
+}
+
+.menu-entrees {
+    bottom: 40px;
+    position: relative;
+}
+.menu-entrees h5 {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.menu-entrees p {
+    position: relative;
+    bottom: 15px;
+}
+
+/* PLATS */
+
+.plat {
+    margin: 2%;
+}
+
+.plat1, .plat2, .plat3 {
+    margin: 2%;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-bottom: -40px;
+
+}
+.menu-plats {
+    bottom: 25px;
+    position: relative;
+}
+
+.menu-plats h5 {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.menu-plats p {
+    position: relative;
+    bottom: 15px;
+}
+
+/* DESSERTS */
+
+.dessert {
+    margin: 2%;
+}
+
+.dessert1, .dessert2, .dessert3, .dessert4 {
+    margin: 2%;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-bottom: -40px;
+
+}
+
+.menu-desserts {
+    position: relative;
+    bottom: 20px ;
+}
+.menu-desserts h5 {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.menu-desserts p {
+    position: relative;
+    bottom: 15px;
+}
+
+.menu-desserts input {
+    transform: scale(1.02);
+    margin-left: 37%;
+    border-radius: 15px 15px 15px 15px;
+    background-color: violet;
+    height: 35px;
+    width: 110px;
+}
